@@ -20,7 +20,7 @@ import java.util.List;
 @Slf4j
 @RepositoryRestController
 @RequiredArgsConstructor
-@RequestMapping("/source/")
+@RequestMapping("/source")
 public class SourceController {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(UserController.class);
