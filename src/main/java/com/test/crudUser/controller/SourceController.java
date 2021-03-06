@@ -31,7 +31,8 @@ public class SourceController {
     @GetMapping(path = "")
     public ResponseEntity<?> getSource() {
         HashMap<String, String> map = new HashMap<>();
-        map.put("sourceCode", "http://teste.com.br");
+        map.put("frontend", "https://github.com/riosvictor/crud-user-front");
+        map.put("backend", "https://github.com/riosvictor/crudUser");
 
         return ResponseEntity.ok(map);
     }
