@@ -21,7 +21,7 @@ public class AuthConfig extends WebSecurityConfigurerAdapter
                 .cors().and()
                 .csrf().disable()
                 .authorizeRequests()
-                .antMatchers("**/source").permitAll()
+                .antMatchers("/source/**").permitAll()
                 //.antMatchers("/swagger-ui/**").permitAll()
                 //.antMatchers("/v2/api/**").permitAll()
                 .anyRequest().authenticated()
