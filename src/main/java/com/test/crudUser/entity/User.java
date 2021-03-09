@@ -50,4 +50,8 @@ public class User {
     public void setCreated(Date created) {
         this.created = created;
     }
+
+    public String getId() {
+        return id;
+    }
 }

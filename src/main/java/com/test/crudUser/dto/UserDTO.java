@@ -18,6 +18,16 @@ public class UserDTO {
     private String naturalidade;
     private String nacionalidade;
 
+    public UserDTO(String cpf, String nome, String sexo, String email, Date dataNascimento, String naturalidade, String nacionalidade) {
+        this.cpf = cpf;
+        this.nome = nome;
+        this.sexo = sexo;
+        this.email = email;
+        this.dataNascimento = dataNascimento;
+        this.naturalidade = naturalidade;
+        this.nacionalidade = nacionalidade;
+    }
+
     public void setId(String id) {
         this.id = id;
     }
